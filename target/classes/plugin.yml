@@ -1,0 +1,5 @@
+name: WorldManager
+main: com.caved_in.worldmanager.WorldManager
+version: 1.0
+description: Simple way to reload / rollback maps after the match is over
+author: Brandon (TheGamersCave)
