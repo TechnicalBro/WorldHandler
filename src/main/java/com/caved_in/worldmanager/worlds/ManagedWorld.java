@@ -32,4 +32,20 @@ public class ManagedWorld {
 	public World getWorld() {
 		return worldSpawn.getWorld();
 	}
+
+	public boolean isAllowEntities() {
+		return allowEntities;
+	}
+
+	public void setAllowEntities(boolean allowEntities) {
+		this.allowEntities = allowEntities;
+	}
+
+	public boolean isLoadOnStart() {
+		return loadOnStart;
+	}
+
+	public void setLoadOnStart(boolean loadOnStart) {
+		this.loadOnStart = loadOnStart;
+	}
 }

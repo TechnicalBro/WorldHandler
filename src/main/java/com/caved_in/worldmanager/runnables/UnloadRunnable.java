@@ -8,9 +8,9 @@ public class UnloadRunnable implements Runnable {
 	private String taskName = "";
 	private String mapName = "";
 
-	public UnloadRunnable(String Task, String Map) {
-		this.taskName = Task;
-		this.mapName = Map;
+	public UnloadRunnable(String taskName, String mapName) {
+		this.taskName = taskName;
+		this.mapName = mapName;
 	}
 
 	@Override
